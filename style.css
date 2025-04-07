@@ -1,6 +1,44 @@
+/*
+Nav
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-right: 406px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+/*
+Index
+*/
+
 body {
-    background-color: #e7b87d;
-    color: #5a1e64;
+    background-image: url("/images/esfera-background.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 nav {
@@ -26,4 +64,21 @@ nav {
 .video {
     display: flex;
     align-items: center;
+}
+
+img[src*="images/maplestoryNext.png"] {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pop img:hover {
+    filter: contrast(150%) hue-rotate(-20deg);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.pop img {
+    transition: all 0.5s;
 }
