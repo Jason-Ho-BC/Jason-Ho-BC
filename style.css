@@ -85,6 +85,12 @@ h3 {
 Buttons
 */
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 #git {
     background: url("images/maplestorySlime.png");
     background-size: 200px 200px;
@@ -94,9 +100,8 @@ Buttons
 }
 
 div>a {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
 }
 
 #git:hover {
@@ -113,6 +118,7 @@ img[src*="images/maplestoryNext.png"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.3), 0 17px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
 img[src*="images/Sumomi.png"] {
