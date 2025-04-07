@@ -136,7 +136,7 @@ img[src*="images/Sumomi.png"] {
 
 .pop img:hover {
     filter: contrast(150%) hue-rotate(-20deg);
-    transform: scale(1.1);
+    transform: scale(1.5);
     transition: all 0.5s;
 }
 
