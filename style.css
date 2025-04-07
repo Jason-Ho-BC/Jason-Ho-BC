@@ -2,3 +2,19 @@ body {
     background-color: #e7b87d;
     color: #5a1e64;
 }
+
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+about {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
