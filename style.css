@@ -31,6 +31,14 @@ header {
     margin-bottom: 50px;
 }
 
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /*
 Index
 */
@@ -39,14 +47,6 @@ body {
     background-image: url("images/maplestoryBackground.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-nav {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 .flex-container {
@@ -61,12 +61,60 @@ nav {
     padding: 20px;
 }
 
-.video {
-    display: flex;
-    align-items: center;
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: cursive;
+    margin-left: auto;
 }
 
+h2 {
+    text-align: center;
+    font-size: 72px;
+    font-family: cursive;
+}
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+    font-family: cursive;
+}
+
+/*
+Buttons
+*/
+
+#git {
+    background: url("images/maplestorySlime.png");
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+    border: none;
+}
+
+div>a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#git:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+}
+
+/*
+Images
+*/
+
 img[src*="images/maplestoryNext.png"] {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[src*="images/Sumomi.png"] {
     height: 500px;
     display: block;
     margin-left: auto;
@@ -81,4 +129,9 @@ img[src*="images/maplestoryNext.png"] {
 
 .pop img {
     transition: all 0.5s;
+}
+
+.video {
+    display: flex;
+    align-items: center;
 }
