@@ -47,6 +47,7 @@ body {
     background-image: url("images/maplestoryBackground.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .flex-container {
@@ -130,6 +131,10 @@ img[src*="images/Sumomi.png"] {
 .pop img {
     transition: all 0.5s;
 }
+
+/*
+Videos
+*/
 
 .video {
     display: flex;
