@@ -11,10 +11,19 @@ nav {
     width: 100%;
 }
 
-about {
+.flex-container {
     display: flex;
-    list-style-type: none;
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
+}
+
+.flex-container>div {
+    margin: 10px;
+    padding: 20px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
 }
