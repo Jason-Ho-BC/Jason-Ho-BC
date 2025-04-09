@@ -275,10 +275,18 @@ Footer
 */
 
 footer {
-    display: block;
-    background-color: #333;
-    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
     width: 100%;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*
@@ -293,7 +301,7 @@ img[src*="images/Sumomi.png"] {
 }
 
 .pop img:hover {
-    filter: contrast(150%) hue-rotate(-20deg);
+    /* filter: contrast(150%) hue-rotate(-20deg); */
     transform: scale(1.5);
     transition: all 0.5s;
 }
