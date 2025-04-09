@@ -91,13 +91,13 @@ iframe {
     height: 119px;
 } */
 
-img[src*="images/maplestoryLogo.png"] {
+/* img[src*="images/maplestoryLogo.png"] {
     position: absolute;
     top: 20%;
     left: 50%;
     width: 300px;
     transform: translate(-50%, -50%);
-}
+} */
 
 /*
 Mastery
@@ -182,7 +182,6 @@ Skill
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     border-radius: 15px;
     background: rgb(56, 56, 56);
     background: linear-gradient(45deg, rgba(56, 56, 56, 1) 0%, rgba(201, 201, 201, 1) 50%, rgba(88, 88, 88, 1) 100%);
@@ -192,7 +191,8 @@ Skill
 .skill-img img {
     padding: 10px;
     border-radius: 15px;
-    min-width: 300px;
+    min-width: 400px;
+    min-height: 400px;
 }
 
 .skill-text-box {
@@ -200,8 +200,10 @@ Skill
     background: #fefefe;
     border-radius: 25px;
     height: calc(100% - 60px);
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 h3 {
@@ -211,6 +213,7 @@ h3 {
 
     margin: 0px;
     padding-left: 20px;
+    padding-top: 30px;
 
     font-family: "basic-sans", sans-serif;
     font-weight: bolder;
@@ -224,7 +227,8 @@ h3 {
     font-weight: lighter;
     font-size: 30px;
     color: #282220;
-    margin: 20px;
+    margin: 30px;
+    padding-top: 30px;
 }
 
 /**/
@@ -280,13 +284,15 @@ footer {
     justify-content: center;
     background-color: #333333;
     width: 100%;
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 /*
