@@ -150,17 +150,17 @@ Skill
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-right: 100px;
     border-radius: 15px;
     background: rgb(56, 56, 56);
     background: linear-gradient(45deg, rgba(56, 56, 56, 1) 0%, rgba(201, 201, 201, 1) 50%, rgba(88, 88, 88, 1) 100%);
 }
 
-img[src*="images/skillSequence.webp"] {
+/* height: calc(100% - 10px - 30px - 8px); */
+.skill-img img {
     padding: 10px;
-    min-width: 100%;
-    height: calc(100% - 10px - 30px - 8px);
     border-radius: 15px;
+    width: 100%;
+    min-height: 270;
 }
 
 .skill-text-box {
