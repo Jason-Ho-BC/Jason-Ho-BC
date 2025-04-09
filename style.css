@@ -76,7 +76,7 @@ Mastery
 
 .frame {
     display: flexbox;
-    background: rgb(30, 30, 159);
+    background: #fefefe;
     border-radius: 0.8%;
     height: 100%;
     margin: 8px;
@@ -87,44 +87,55 @@ Mastery
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
+
+    border-radius: 0.8%;
+    margin: 10px;
+    padding: 20px;
 }
 
-.mastery-text {
-    background: rgb(255, 255, 255);
-    border-radius: 0.8%;
+/* .mastery-text-box {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
-    padding: 8px;
+
+    margin: 8px;
+} */
+
+/* 
+    background: rgb(255, 255, 255);
+    border-radius: 0.8%;
+ */
+.mastery-text {
+    padding-left: 100px;
 }
 
 .mastery-img {
-    align-items: center;
-    background: rgb(255, 255, 255);
-    border-radius: 0.8%;
-
-    max-width: 100%;
-    max-height: 100%;
-    padding: 8px;
+    padding-right: 50px;
     margin: 8px;
 }
 
-img[src*="images/maplestoryNext.png"] {
+img[src*="images/maplestoryLara.png"] {
     max-width: 100%;
     max-height: 100%;
-    /* box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.3), 0 17px 50px 0 rgba(0, 0, 0, 0.2); */
 }
 
 h2 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    font-size: 52px;
-    font-family: sans-serif;
 
-    margin: 0px;
-    height: 80px;
+    font-family: "basic-sans", sans-serif;
+    font-weight: bolder;
+    font-size: 52px;
+    color: #225aa7;
+    text-transform: uppercase;
+}
+
+.font {
+    font-family: "basic-sans", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #282220;
 }
 
 /**/
