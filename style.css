@@ -93,18 +93,6 @@ Mastery
     padding: 20px;
 }
 
-/* .mastery-text-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin: 8px;
-} */
-
-/* 
-    background: rgb(255, 255, 255);
-    border-radius: 0.8%;
- */
 .mastery-text {
     padding-left: 100px;
 }
@@ -132,11 +120,79 @@ h2 {
     text-transform: uppercase;
 }
 
-.font {
+.mastery-font {
     font-family: "basic-sans", sans-serif;
     font-weight: lighter;
     font-size: 30px;
     color: #282220;
+}
+
+/*
+Skill 
+*/
+
+.skill-frame {
+    display: flexbox;
+    border-radius: 25px;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.8%;
+}
+
+.skill-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-right: 100px;
+    border-radius: 15px;
+    background: rgb(56, 56, 56);
+    background: linear-gradient(45deg, rgba(56, 56, 56, 1) 0%, rgba(201, 201, 201, 1) 50%, rgba(88, 88, 88, 1) 100%);
+}
+
+img[src*="images/skillSequence.webp"] {
+    padding: 10px;
+    min-width: 100%;
+    height: calc(100% - 10px - 30px - 8px);
+    border-radius: 15px;
+}
+
+.skill-text-box {
+    display: flexbox;
+    background: #fefefe;
+    border-radius: 25px;
+
+    margin-left: 10px;
+    padding: 30px;
+}
+
+h3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin: 0px;
+    padding-left: 20px;
+
+    font-family: "basic-sans", sans-serif;
+    font-weight: bolder;
+    font-size: 52px;
+    color: #2ec54a;
+    text-transform: uppercase;
+}
+
+.skill-font {
+    font-family: "basic-sans", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #282220;
+    margin: 20px;
 }
 
 /**/
@@ -146,12 +202,6 @@ h1 {
     font-size: 32px;
     font-family: sans-serif;
     margin-left: auto;
-}
-
-h3 {
-    text-align: center;
-    font-size: 32px;
-    font-family: sans-serif;
 }
 
 h4 {
@@ -219,15 +269,6 @@ img[src*="images/Sumomi.png"] {
 .pop img {
     transition: all 0.5s;
 }
-
-img[src*="images/skillSequence.webp"] {
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
-}
-
 
 /*
 Videos
