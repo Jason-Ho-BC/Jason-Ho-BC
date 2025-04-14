@@ -240,9 +240,10 @@ h1 {
 
 .about-text {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-family: "basic-sans", sans-serif;
 }
+
 
 h4 {
     text-align: center;
@@ -343,6 +344,10 @@ Videos
 /*
 Home
 */
+
+.home-body {
+    font-size: 32px;
+}
 
 #home {
     background-color: #fefefe;
@@ -542,4 +547,58 @@ Dish
     height: 50px;
     width: 120px;
     cursor: pointer;
+}
+
+/* 
+Speedy
+*/
+
+.speedy-image {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: auto;
+    padding-top: 30px;
+}
+
+.speedy-image img {
+    border-radius: 10px;
+}
+
+.speedy-text-box {
+    display: block;
+    font-family: "basic-sans", sans-serif;
+    font-weight: lighter;
+    color: #282220;
+}
+
+.speedy-text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+}
+
+.speedy-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* 
+Temp right
+*/
+
+.temp-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "basic-sans", sans-serif;
+    font-weight: lighter;
+    color: #282220;
+    height: 337px;
+    font-size: 72px;
 }
