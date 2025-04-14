@@ -494,13 +494,20 @@ Dish
     color: #282220;
 }
 
-.dish-header {
+.dish-text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 52px;
-    padding-bottom: 10px;
 }
 
 .dish-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #dish-list {
