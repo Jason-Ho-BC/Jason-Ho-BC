@@ -510,3 +510,29 @@ Dish
 .dish-tech {
     font-size: 30px;
 }
+
+.dish-tech li {
+    padding: 5px
+}
+
+.dish-tech li div {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.github-link {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.a-frame {
+    align-self: center;
+    justify-content: center;
+}
+
+.github-link a .git {
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+}
