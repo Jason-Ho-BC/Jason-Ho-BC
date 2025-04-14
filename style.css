@@ -64,6 +64,16 @@ body {
     text-decoration: none;
     width: 100%;
     padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#home {
+    background-color: #fefefe;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
 }
 
 /* 
@@ -82,22 +92,6 @@ iframe {
     width: 85vw;
     height: 50vh;
 }
-
-/* .logo-frame {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300px;
-    height: 119px;
-} */
-
-/* img[src*="images/maplestoryLogo.png"] {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    width: 300px;
-    transform: translate(-50%, -50%);
-} */
 
 /*
 Mastery
@@ -300,11 +294,11 @@ div>a {
 }
 
 /*
-Footer
+Maple Footer
 */
 
-footer {
-    display: flex;
+.maple-footer {
+    display: grid;
     align-items: center;
     justify-content: center;
     background-color: #333333;
@@ -313,11 +307,17 @@ footer {
     padding-bottom: 30px;
 }
 
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 /*
@@ -348,4 +348,154 @@ Videos
 .video {
     display: flex;
     align-items: center;
+}
+
+/*
+Home
+*/
+
+#home {
+    background: #fefefe;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.home-content {
+    width: 70%;
+    height: auto;
+}
+
+.home-frame {
+    border-radius: 25px;
+}
+
+.home-grid-frame {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+    column-gap: 20px;
+}
+
+.grid-left {
+    background-color: #D9EAFD;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    padding-bottom: 18px;
+}
+
+.grid-right {
+    background-color: #D9EAFD;
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 18px;
+}
+
+.maple-image {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: auto;
+}
+
+.maple-image img {
+    max-width: 100%;
+    height: 300px;
+}
+
+.dish-image {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    max-width: 100%;
+    height: 300px;
+}
+
+.dish-image img {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.maple-text-box {
+    display: block;
+    font-family: "basic-sans", sans-serif;
+    font-weight: lighter;
+    color: #282220;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.maple-text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+}
+
+.maple-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.dish-text-box {
+    display: block;
+    font-family: "basic-sans", sans-serif;
+    font-weight: lighter;
+    color: #282220;
+}
+
+.dish-text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+}
+
+.dish-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.home-grid-frame a {
+    width: auto;
+}
+
+.home-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9AA6B2;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-text {
+    display: flex;
+    font-family: "basic-sans", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #282220;
 }
