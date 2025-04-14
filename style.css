@@ -2,7 +2,7 @@
 Nav
 */
 
-ul {
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,17 +10,17 @@ ul {
     background-color: #333;
 }
 
-li {
+.nav-list li {
     float: left;
 }
 
-li a {
+.nav-list li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "basic-sans", sans-serif;
     font-size: 1.2em;
 }
 
@@ -427,7 +427,6 @@ Home
     color: #282220;
     justify-content: center;
     align-items: center;
-
 }
 
 .maple-text-header {
@@ -438,29 +437,6 @@ Home
 }
 
 .maple-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.dish-text-box {
-    display: block;
-    font-family: "basic-sans", sans-serif;
-    font-weight: lighter;
-    color: #282220;
-}
-
-.dish-text-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 52px;
-}
-
-.dish-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,4 +469,44 @@ a:link {
     font-weight: lighter;
     font-size: 30px;
     color: #282220;
+}
+
+/*
+Dish 
+*/
+
+.dish-container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    max-width: 100%;
+}
+
+.dish-container img {
+    max-width: 70%;
+    margin-top: 20px;
+}
+
+.dish-text-box {
+    display: block;
+    font-family: "basic-sans", sans-serif;
+    font-weight: lighter;
+    color: #282220;
+}
+
+.dish-header {
+    font-size: 52px;
+    padding-bottom: 10px;
+}
+
+.dish-text {
+    font-size: 30px;
+}
+
+#dish-list {
+    background-color: #fefefe;
+}
+
+.dish-tech {
+    font-size: 30px;
 }
