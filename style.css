@@ -46,10 +46,10 @@ li a:hover {
 }
 
 /*
-Index
+Maplestory
 */
 
-body {
+#maplestory-landing {
     background-image: url("images/maplestoryBackground.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -65,15 +65,6 @@ body {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 10px;
-}
-
-#home {
-    background-color: #fefefe;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0px;
 }
 
 /* 
@@ -181,7 +172,6 @@ Skill
     background: linear-gradient(45deg, rgba(56, 56, 56, 1) 0%, rgba(201, 201, 201, 1) 50%, rgba(88, 88, 88, 1) 100%);
 }
 
-/* height: calc(100% - 10px - 30px - 8px); */
 .skill-img img {
     padding: 10px;
     border-radius: 15px;
@@ -355,7 +345,12 @@ Home
 */
 
 #home {
-    background: #fefefe;
+    background-color: #fefefe;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
 }
 
 .home-container {
